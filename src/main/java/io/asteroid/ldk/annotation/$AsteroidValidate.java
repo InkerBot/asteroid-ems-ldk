@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
  * if entitlement has the feature.
  *
  * If check failed, it will generate unexpected behavior, so you must check
- * entitlement has this feature by {@link $Asteroid#hasFeature(String)} manually.
+ * entitlement has this feature by {@link $Asteroid#hasFeature(String, int)} manually.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
