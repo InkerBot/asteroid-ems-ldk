@@ -24,10 +24,10 @@ public @interface $AsteroidHeavyDuty {
     /**
      * If value is not empty, it will obfuscate with the specified polynomial ring level.
      * Otherwise, it will obfuscate with the default polynomial ring level.
-     *
+     * <p>
      * Polynomial ring is a mathematical structure that is used to define the operations
      * of addition, subtraction, multiplication, and division.
-     *
+     * <p>
      * level 0: no polynomial ring
      * level 1: 8-bit polynomial ring (byte)
      * level 2: 16-bit polynomial ring (short)

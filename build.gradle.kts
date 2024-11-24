@@ -32,7 +32,11 @@ allprojects {
         publications {
             create<MavenPublication>("mavenJava") {
                 from(components["java"])
-                artifactId = if (project == rootProject) { "all" } else { project.name }
+                artifactId = if (project == rootProject) {
+                    "all"
+                } else {
+                    project.name
+                }
             }
         }
         repositories {

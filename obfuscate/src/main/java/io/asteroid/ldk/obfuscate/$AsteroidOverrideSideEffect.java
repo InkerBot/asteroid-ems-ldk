@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * Asteroid Override Side Effect Annotation, if a method is annotated with this annotation,
  * it will override the side effect analysis result.
- *
+ * <p>
  * In Asteroid obfuscate, if a method has no side effect, instructions order may be changed,
  * even some method will call multiple times.
  */

@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * field is annotated with this annotation, it will only be
  * available in development mode. It will be removed in the
  * production mode.
- *
+ * <p>
  * All calls to the annotated class, method, or field will be
  * replaced with a dummy implementation.
  */
