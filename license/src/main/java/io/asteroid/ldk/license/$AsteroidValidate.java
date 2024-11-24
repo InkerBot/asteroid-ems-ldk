@@ -1,6 +1,4 @@
-package io.asteroid.ldk.annotation;
-
-import io.asteroid.ldk.$Asteroid;
+package io.asteroid.ldk.license;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -13,7 +11,7 @@ import java.lang.annotation.Target;
  * if entitlement has the feature.
  *
  * If check failed, it will generate unexpected behavior, so you must check
- * entitlement has this feature by {@link $Asteroid#hasFeature(String, int)} manually.
+ * entitlement has this feature by {@link $AsteroidLicense#hasFeature(String, int)} manually.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
