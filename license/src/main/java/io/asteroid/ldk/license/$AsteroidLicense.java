@@ -35,7 +35,6 @@ public final class $AsteroidLicense {
     public static void $dev$init(String entitlementId, String productId, String... features) {
         $dev$entitlementId = entitlementId;
         $dev$productId = productId;
-        $dev$features.clear();
         $dev$features = new LinkedHashSet<>();
         Collections.addAll($dev$features, features);
     }
