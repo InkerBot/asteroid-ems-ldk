@@ -10,11 +10,14 @@ import java.lang.annotation.Target;
  * it only can be invoked after validate. If value is not empty, it will check
  * if entitlement has the feature.
  * <p>
+ * If a class is annotated with this annotation, the class will only be loaded
+ * after validate license by {@link AsteroidLicense#login(String, int)}.
+ * <p>
  * If check failed, it will generate unexpected behavior, so you must check
  * entitlement has this feature by {@link AsteroidLicense#hasFeature(String, int)} manually.
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
+@Target({ElementType.METHOD, ElementType.TYPE})
 public @interface AsteroidValidate {
     /**
      * If value is not empty, it will check if entitlement has the feature.
