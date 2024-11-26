@@ -1,6 +1,6 @@
 package io.asteroid.ldk.license;
 
-import io.asteroid.ldk.common.$AsteroidDevelopmentOnly;
+import io.asteroid.ldk.common.AsteroidDevelopmentOnly;
 
 import java.util.Collections;
 import java.util.LinkedHashSet;
@@ -12,15 +12,15 @@ import java.util.Set;
  * This class will not be included in the final jar file.
  * Invoke will be inlined after obfuscate.
  */
-public final class $AsteroidLicense {
-    @$AsteroidDevelopmentOnly
+public final class AsteroidLicense {
+    @AsteroidDevelopmentOnly
     private static String $dev$entitlementId;
-    @$AsteroidDevelopmentOnly
+    @AsteroidDevelopmentOnly
     private static String $dev$productId;
-    @$AsteroidDevelopmentOnly
+    @AsteroidDevelopmentOnly
     private static Set<String> $dev$features;
 
-    private $AsteroidLicense() {
+    private AsteroidLicense() {
         throw new UnsupportedOperationException();
     }
 
@@ -31,8 +31,8 @@ public final class $AsteroidLicense {
      * @param productId     product id
      * @param features      features
      */
-    @$AsteroidDevelopmentOnly
-    public static void $dev$init(String entitlementId, String productId, String... features) {
+    @AsteroidDevelopmentOnly
+    public static void dev_init(String entitlementId, String productId, String... features) {
         $dev$entitlementId = entitlementId;
         $dev$productId = productId;
         $dev$features = new LinkedHashSet<>();

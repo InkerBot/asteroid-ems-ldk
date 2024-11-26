@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE, ElementType.METHOD, ElementType.FIELD})
-public @interface $AsteroidKeepName {
+public @interface AsteroidKeepName {
     /**
      * If keepDesc is true, it will keep the method description. Include the
      * method parameter name, return type, and exception type.

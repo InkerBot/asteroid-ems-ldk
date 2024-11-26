@@ -6,8 +6,8 @@ package io.asteroid.ldk.common;
  * This class will not be included in the final jar file.
  * Invoke will be inlined after obfuscate.
  */
-public class $Asteroid {
-    private $Asteroid() {
+public class Asteroid {
+    private Asteroid() {
         throw new UnsupportedOperationException();
     }
 

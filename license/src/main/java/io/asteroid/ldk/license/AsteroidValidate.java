@@ -11,11 +11,11 @@ import java.lang.annotation.Target;
  * if entitlement has the feature.
  * <p>
  * If check failed, it will generate unexpected behavior, so you must check
- * entitlement has this feature by {@link $AsteroidLicense#hasFeature(String, int)} manually.
+ * entitlement has this feature by {@link AsteroidLicense#hasFeature(String, int)} manually.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface $AsteroidValidate {
+public @interface AsteroidValidate {
     /**
      * If value is not empty, it will check if entitlement has the feature.
      *

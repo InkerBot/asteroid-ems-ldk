@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface $AsteroidHeavyDuty {
+public @interface AsteroidHeavyDuty {
     /**
      * If value is not empty, it will obfuscate with the specified virtual machine.
      * Otherwise, it will obfuscate with the default virtual machine.

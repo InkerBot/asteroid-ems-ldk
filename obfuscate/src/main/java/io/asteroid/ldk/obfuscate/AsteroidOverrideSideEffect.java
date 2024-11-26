@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface $AsteroidOverrideSideEffect {
+public @interface AsteroidOverrideSideEffect {
     /**
      * If value is true, side effect analysis result will be overridden by has side effect.
      * If value is false, side effect analysis result will be overridden by no side effect.
